@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap');
+@theme {
+    --font-fjalla: "Fjalla One", sans-serif;
+    --font-sans: "Oxanium", sans-serif;
+}
+
+.font-fjalla {
+    font-family: var(--font-fjalla);
+}
